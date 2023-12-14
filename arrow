@@ -1,0 +1,18 @@
+function double(arr) {
+    return arr.map(function(val) {
+      return val * 2;
+    });
+  }
+  const doubleValues = array => array.map(value => value * 2);
+  function calculateSquaresAndFilterEvens(numbers) {
+    var squares = numbers.map(function(num) {
+      return num ** 2;
+    });
+    var evenSquares = squares.filter(function(square) {
+      return square % 2 === 0;
+    });
+    return evenSquares;
+  }
+  
+  const calculateSquaresAndFilterEvens = numbers => numbers.map(value => value ** 2).filter(square => square % 2 === 0);
+  
